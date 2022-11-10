@@ -1,7 +1,5 @@
-{{page-title "TodoEmber"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class='bg-primary min-h-screen'>
+  <Navigation::Navbar />
+  <main class='max-w-7xl mx-auto px-4'>{{outlet}}</main>
+  <Navigation::Footer />
+</div>

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-black px-10 py-3 text-white text-lg rounded-[40px] hover:bg-gray-900 border border-black;
+}
+
+.btn-ghost {
+  @apply bg-transparent border border-black px-10 py-3 text-black text-lg rounded-[40px] hover:bg-gray-100;
+}
